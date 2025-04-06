@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Permitir a todos los robots acceder a todas las páginas
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://example.com/sitemap.xml
+
+# Parámetros específicos para GoogleBot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Parámetros específicos para Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Parámetros específicos para Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# Parámetros específicos para Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2 
